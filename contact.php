@@ -2,81 +2,141 @@
 include("superior.php");
 ?>
 
-    <!-- ***** Hero Area Start ***** -->
-    <div class="hero-area d-flex align-items-center">
-       
-        <!-- Hero Thumbnail -->
-        <div class="hero-thumbnail equalize bg-img" style="background-image: url(img/bg-img/contact.jpg);"></div>
-        
-        <!-- Hero Content -->
-        <div class="hero-content equalize">
-            <div class="container-fluid h-100">
-                <div class="row h-100 align-items-center justify-content-center">
-                    <div class="col-12 col-md-8">
-                        <div class="line"></div>
-                        <h2>Contact me</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui.</p>
-                        <a href="#" class="btn sonar-btn white-btn">contact me</a>
-                    </div>
+<!-- ****** Gallery Area Start ****** -->
+<section class="sonar-projects-area" id="projects">
+    <div class="container-fluid">
+        <div class="row sonar-portfolio">
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item landscapes studio wow fadeInUpBig" data-wow-delay="300ms">
+                <a class="gallery-img" href="img/portfolio-img/1.jpg"><img src="img/portfolio-img/1.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>Mountains in the mist</h4>
+                    <p>Landscapes</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item portraits fashion wow fadeInUpBig" data-wow-delay="500ms">
+                <a class="gallery-img" href="img/portfolio-img/2.jpg"><img src="img/portfolio-img/2.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>A beautifull encounter</h4>
+                    <p>Portrait</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item landscapes studio wow fadeInUpBig" data-wow-delay="700ms">
+                <a class="gallery-img" href="img/portfolio-img/3.jpg"><img src="img/portfolio-img/3.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>Mountains in the mist</h4>
+                    <p>Landscapes</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item portraits studio wow fadeInUpBig" data-wow-delay="900ms">
+                <a class="gallery-img" href="img/portfolio-img/4.jpg"><img src="img/portfolio-img/4.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>A beautifull encounter</h4>
+                    <p>Portrait</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item landscapes fashion wow fadeInUpBig" data-wow-delay="300ms">
+                <a class="gallery-img" href="img/portfolio-img/5.jpg"><img src="img/portfolio-img/5.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>Mountains in the mist</h4>
+                    <p>Landscapes</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item portraits fashion wow fadeInUpBig" data-wow-delay="500ms">
+                <a class="gallery-img" href="img/portfolio-img/6.jpg"><img src="img/portfolio-img/6.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>A beautifull encounter</h4>
+                    <p>Portrait</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item landscapes fashion wow fadeInUpBig" data-wow-delay="700ms">
+                <a class="gallery-img" href="img/portfolio-img/7.jpg"><img src="img/portfolio-img/7.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>Mountains in the mist</h4>
+                    <p>Landscapes</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item portraits studio wow fadeInUpBig" data-wow-delay="900ms">
+                <a class="gallery-img" href="img/portfolio-img/8.jpg"><img src="img/portfolio-img/8.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>A beautifull encounter</h4>
+                    <p>Portrait</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item landscapes studio wow fadeInUpBig" data-wow-delay="300ms">
+                <a class="gallery-img" href="img/portfolio-img/9.jpg"><img src="img/portfolio-img/9.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>Mountains in the mist</h4>
+                    <p>Landscapes</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item portraits wow fadeInUpBig" data-wow-delay="500ms">
+                <a class="gallery-img" href="img/portfolio-img/10.jpg"><img src="img/portfolio-img/10.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>A beautifull encounter</h4>
+                    <p>Portrait</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item landscapes wow fadeInUpBig" data-wow-delay="700ms">
+                <a class="gallery-img" href="img/portfolio-img/11.jpg"><img src="img/portfolio-img/11.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>Mountains in the mist</h4>
+                    <p>Landscapes</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item portraits wow fadeInUpBig" data-wow-delay="900ms">
+                <a class="gallery-img" href="img/portfolio-img/12.jpg"><img src="img/portfolio-img/12.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>A beautifull encounter</h4>
+                    <p>Portrait</p>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- ***** Hero Area End ***** -->
 
-    <section class="sonar-contact-area section-padding-100">
-        <!-- back end content -->
-        <div class="backEnd-content">
-            <img class="dots" src="img/core-img/dots.png" alt="">
-        </div>
-        
-        <div class="container">
-            <div class="row">
-                <!-- Contact Form Area -->
-                <div class="col-12">
-                    <div class="contact-form text-center">
-
-                        <h2>I am an experienced photographer</h2>
-                        <h4>Let’s talk</h4>
-
-                        <form action="#" method="post">
-                            <div class="row">
-                                <div class="col-12 col-md-4">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="contact-name" placeholder="Your Name">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-4">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" id="contact-email" placeholder="Your Email">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-4">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="contact-email" placeholder="Subject">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button type="submit" class="btn sonar-btn">Contact Me</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <a href="#" class="btn sonar-btn">Load More</a>
             </div>
         </div>
-    </section>
-
-    <!-- Google Maps -->
-    <div class="map-area">
-        <div id="googleMap" class="googleMap"></div>
     </div>
+</section>
+<!-- ****** Gallery Area End ****** -->
 
-    <?php
+<?php
 include("inferior.php");
 ?>

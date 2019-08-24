@@ -2,126 +2,141 @@
 include("superior.php");
 ?>
 
-    <!-- ***** Hero Area Start ***** -->
-    <div class="hero-area d-flex align-items-center">
-        <!-- Back End Content -->
-        <div class="backEnd-content">
-            <img class="dots" src="img/core-img/dots.png" alt="">
-        </div>
+<!-- ****** Gallery Area Start ****** -->
+<section class="sonar-projects-area" id="projects">
+    <div class="container-fluid">
+        <div class="row sonar-portfolio">
 
-        <!-- Hero Thumbnail -->
-        <div class="hero-thumbnail aboutUs equalize bg-img" style="background-image: url(img/bg-img/about.jpg);"></div>
-        
-        <!-- Hero Content -->
-        <div class="hero-content aboutUs equalize">
-            <div class="container-fluid h-100">
-                <div class="row h-100 align-items-center justify-content-center">
-                    <div class="col-12 col-md-10">
-                        <div class="line"></div>
-                        <h2>Hello, My name is Sam Smith and I am an experienced photographer</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
-                        <a href="#" class="btn sonar-btn white-btn">contact me</a>
-                    </div>
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item landscapes studio wow fadeInUpBig" data-wow-delay="300ms">
+                <a class="gallery-img" href="img/portfolio-img/1.jpg"><img src="img/portfolio-img/1.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>Mountains in the mist</h4>
+                    <p>Landscapes</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item portraits fashion wow fadeInUpBig" data-wow-delay="500ms">
+                <a class="gallery-img" href="img/portfolio-img/2.jpg"><img src="img/portfolio-img/2.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>A beautifull encounter</h4>
+                    <p>Portrait</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item landscapes studio wow fadeInUpBig" data-wow-delay="700ms">
+                <a class="gallery-img" href="img/portfolio-img/3.jpg"><img src="img/portfolio-img/3.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>Mountains in the mist</h4>
+                    <p>Landscapes</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item portraits studio wow fadeInUpBig" data-wow-delay="900ms">
+                <a class="gallery-img" href="img/portfolio-img/4.jpg"><img src="img/portfolio-img/4.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>A beautifull encounter</h4>
+                    <p>Portrait</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item landscapes fashion wow fadeInUpBig" data-wow-delay="300ms">
+                <a class="gallery-img" href="img/portfolio-img/5.jpg"><img src="img/portfolio-img/5.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>Mountains in the mist</h4>
+                    <p>Landscapes</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item portraits fashion wow fadeInUpBig" data-wow-delay="500ms">
+                <a class="gallery-img" href="img/portfolio-img/6.jpg"><img src="img/portfolio-img/6.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>A beautifull encounter</h4>
+                    <p>Portrait</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item landscapes fashion wow fadeInUpBig" data-wow-delay="700ms">
+                <a class="gallery-img" href="img/portfolio-img/7.jpg"><img src="img/portfolio-img/7.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>Mountains in the mist</h4>
+                    <p>Landscapes</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item portraits studio wow fadeInUpBig" data-wow-delay="900ms">
+                <a class="gallery-img" href="img/portfolio-img/8.jpg"><img src="img/portfolio-img/8.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>A beautifull encounter</h4>
+                    <p>Portrait</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item landscapes studio wow fadeInUpBig" data-wow-delay="300ms">
+                <a class="gallery-img" href="img/portfolio-img/9.jpg"><img src="img/portfolio-img/9.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>Mountains in the mist</h4>
+                    <p>Landscapes</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item portraits wow fadeInUpBig" data-wow-delay="500ms">
+                <a class="gallery-img" href="img/portfolio-img/10.jpg"><img src="img/portfolio-img/10.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>A beautifull encounter</h4>
+                    <p>Portrait</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item landscapes wow fadeInUpBig" data-wow-delay="700ms">
+                <a class="gallery-img" href="img/portfolio-img/11.jpg"><img src="img/portfolio-img/11.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>Mountains in the mist</h4>
+                    <p>Landscapes</p>
+                </div>
+            </div>
+
+            <!-- Single gallery Item -->
+            <div class="col-12 col-sm-6 col-lg-3 single_gallery_item portraits wow fadeInUpBig" data-wow-delay="900ms">
+                <a class="gallery-img" href="img/portfolio-img/12.jpg"><img src="img/portfolio-img/12.jpg" alt=""></a>
+                <!-- Gallery Content -->
+                <div class="gallery-content">
+                    <h4>A beautifull encounter</h4>
+                    <p>Portrait</p>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- ***** Hero Area End ***** -->
 
-    <div class="sonar-about-us-area bg-img" style="background-image: url(img/bg-img/about2.jpg);">
-        <!-- Back End Content -->
-        <div class="backEnd-content">
-            <h2>Dream</h2>
-        </div>
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-md-10 col-lg-7">
-                    <div class="about-us-content bg-white">
-                        <div class="section-heading text-left wow fadeInUp" data-wow-delay="300ms">
-                            <div class="line"></div>
-                            <h2>Look at my qualities</h2>
-                        </div>
-                        <p class="wow fadeInUp" data-wow-delay="600ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque.</p>
-                        <!-- Progress Bar Content Area -->
-                        <div class="services-progress-bar mt-50 wow fadeInUp" data-wow-delay="900ms">
-                            <!-- Single Progress Bar -->
-                            <div class="single_progress_bar">
-                                <div id="bar1" class="barfiller">
-                                    <div class="tipWrap">
-                                        <span class="tip"></span>
-                                    </div>
-                                    <span class="fill" data-percentage="80"></span>
-                                </div>
-                                <p>Pacience</p>
-                            </div>
-                            <!-- Single Progress Bar -->
-                            <div class="single_progress_bar">
-                                <div id="bar2" class="barfiller">
-                                    <div class="tipWrap">
-                                        <span class="tip"></span>
-                                    </div>
-                                    <span class="fill" data-percentage="90"></span>
-                                </div>
-                                <p>Creativity</p>
-                            </div>
-                            <!-- Single Progress Bar -->
-                            <div class="single_progress_bar">
-                                <div id="bar3" class="barfiller">
-                                    <div class="tipWrap">
-                                        <span class="tip"></span>
-                                    </div>
-                                    <span class="fill" data-percentage="100"></span>
-                                </div>
-                                <p>Commited</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <a href="#" class="btn sonar-btn">Load More</a>
             </div>
         </div>
     </div>
+</section>
+<!-- ****** Gallery Area End ****** -->
 
-    <div class="sonar-about-us-area second-part bg-img" style="background-image: url(img/bg-img/about3.jpg);">
-        <!-- Back End Content -->
-        <div class="backEnd-content">
-            <h2>Really</h2>
-        </div>
-
-        <div class="container-fluid">
-            <div class="row justify-content-end">
-                <div class="col-12 col-md-10 col-lg-7">
-                    <div class="about-us-content bg-white">
-                        <div class="section-heading text-left wow fadeInUp" data-wow-delay="300ms">
-                            <div class="line"></div>
-                        </div>
-                        <p class="wow fadeInUp" data-wow-delay="600ms">Consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque.</p>
-                        <div class="row mt-100 text-center wow fadeInUp" data-wow-delay="900ms">
-                            <div class="col-12 col-sm-6 col-md-4">
-                                <div class="single-pie-bar" data-percent="90">
-                                    <canvas class="bar-circle" width="100" height="100"></canvas>
-                                    <p>Landsacpes</p>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-4">
-                                <div class="single-pie-bar" data-percent="65">
-                                    <canvas class="bar-circle" width="100" height="100"></canvas>
-                                    <p>Portraits</p>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-4">
-                                <div class="single-pie-bar" data-percent="25">
-                                    <canvas class="bar-circle" width="100" height="100"></canvas>
-                                    <p>Studio</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <?php
+<?php
 include("inferior.php");
 ?>
