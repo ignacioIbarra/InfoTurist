@@ -48,16 +48,10 @@
                             <li><a href="#"><img src="images/flags/FR.png" /> Français</a></li>
                             <li><a href="#"><img src="images/flags/RO.png" /> Română</a></li>
                             <li><a href="#"><img src="images/flags/IT.png" /> Italiano</a></li>
-
-                            <li class="divider"></li>
-                            <li><a href="homephp"><img src="images/flags/ES.png" /> Español <span
-                                        class="label label-default">soon</span></a></li>
-                            <li><a href="#"><img src="images/flags/BR.png" /> Português <span
-                                        class="label label-default">soon</span></a></li>
-                            <li><a href="#"><img src="images/flags/JP.png" /> 日本語 <span
-                                        class="label label-default">soon</span></a></li>
-                            <li><a href="#"><img src="images/flags/TR.png" /> Türkçe <span
-                                        class="label label-default">soon</span></a></li>
+                            <li><a href="home.php"><img src="images/flags/ES.png" /> Español</a></li>
+                            <li><a href="#"><img src="images/flags/BR.png" /> Português</span></a></li>
+                            <li><a href="#"><img src="images/flags/JP.png" /> 日本語</a></li>
+                            <li><a href="#"><img src="images/flags/TR.png" /> Türkçe</a></li>
 
                         </ul>
                     </li>
