@@ -24,8 +24,7 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -35,28 +34,6 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <img src="images/flags/US.png" />
-                            English(US)
-                            <b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#"><img src="images/flags/DE.png" /> Deutsch</a></li>
-                            <li><a href="#"><img src="images/flags/GB.png" /> English(UK)</a></li>
-                            <li><a href="#"><img src="images/flags/FR.png" /> Français</a></li>
-                            <li><a href="#"><img src="images/flags/RO.png" /> Română</a></li>
-                            <li><a href="#"><img src="images/flags/IT.png" /> Italiano</a></li>
-                            <li><a href="home.php"><img src="images/flags/ES.png" /> Español</a></li>
-                            <li><a href="#"><img src="images/flags/BR.png" /> Português</span></a></li>
-                            <li><a href="#"><img src="images/flags/JP.png" /> 日本語</a></li>
-                            <li><a href="#"><img src="images/flags/TR.png" /> Türkçe</a></li>
-
-                        </ul>
-                    </li>
-
-                </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="#">
@@ -94,9 +71,12 @@
                 Sssoon
             </h1>
             <!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
-
             <div class="content">
-                
+                <button type="button" class="btn btn-dark" onclick=" location.href='home.php' "><img src="images/flags/ES.png" /> <label class="labelportada">Español</label></button>
+                <button type="button" class="btn btn-light" onclick=" location.href='home.php' "><img src="images/flags/GB.png" /> <label class="labelportada">English</label></button>
+                <button type="button" class="btn btn-light" onclick=" location.href='home.php' "><img src="images/flags/DE.png" /> <label class="labelportada">Deutsch</label></button>
+                <button type="button" class="btn btn-light" onclick=" location.href='home.php' "><img src="images/flags/FR.png" /> <label class="labelportada">Français</label></button>
+                <button type="button" class="btn btn-light" onclick=" location.href='home.php' "><img src="images/flags/BR.png" /> <label class="labelportada">Português</label></button>
             </div>
         </div>
         <div class="footer">

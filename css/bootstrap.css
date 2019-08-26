@@ -1867,6 +1867,13 @@ label {
   display: inline-block;
   margin-bottom: 5px;
   font-weight: bold;
+  color: rgb(255,255,255,1);
+}
+.labelportada{
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: rgb(255,255,255,1);
 }
 
 input[type="search"] {
