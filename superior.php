@@ -76,6 +76,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="elements.php">Elements</a>
                     </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../index.php">terminar</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -84,7 +87,9 @@
             <p>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 Copyright &copy;
-                <script>document.write(new Date().getFullYear());</script>Todos los derechos reservados por
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>Todos los derechos reservados por
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
         </div>
