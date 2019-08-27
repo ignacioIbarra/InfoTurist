@@ -12,7 +12,7 @@ include("../superior.php");
                     <div class="col-12">
                         <div class="hero-slides-content">
                             <div class="line"></div>
-                            <a class="nav-link" href="elements.php">
+                            <a class="nav-link" href="restaurantes.php">
                                 <h2>Restaurant</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
