@@ -1,6 +1,3 @@
-<div class="footer">
-    <button type="button" class="btn btn-dark" onclick=" location.href='../index.php' "> <label class="labelportada">terminar</label></button>
-</div>
 
 <!-- jQuery (Necessary for All JavaScript Plugins) -->
 <script src="../js/jquery/jquery-2.2.4.min.js"></script>
