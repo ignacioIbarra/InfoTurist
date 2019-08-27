@@ -366,7 +366,7 @@ function filtrar($filtro){
         
     } else if($filtro == 1){
          // chilena
-         return [$restaurantes[0],$restaurantes[6],$restaurantes[8],$restaurantes[9],$restaurantes[12],$restaurantes[13],
+         return [$restaurantes[0],$restaurantes[8],$restaurantes[9],$restaurantes[12],$restaurantes[13],
             $restaurantes[15],$restaurantes[16],$restaurantes[17],$restaurantes[18],$restaurantes[19],$restaurantes[21],
             $restaurantes[26],$restaurantes[29],$restaurantes[30],$restaurantes[32],$restaurantes[36]];
         
