@@ -72,11 +72,11 @@
             </h1>
             <!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
             <div class="content">
-                <button type="button" class="btn btn-dark" onclick=" location.href='home.php' "><img src="images/flags/ES.png" /> <label class="labelportada">Español</label></button>
-                <button type="button" class="btn btn-light" onclick=" location.href='home.php' "><img src="images/flags/GB.png" /> <label class="labelportada">English</label></button>
-                <button type="button" class="btn btn-light" onclick=" location.href='home.php' "><img src="images/flags/DE.png" /> <label class="labelportada">Deutsch</label></button>
-                <button type="button" class="btn btn-light" onclick=" location.href='home.php' "><img src="images/flags/FR.png" /> <label class="labelportada">Français</label></button>
-                <button type="button" class="btn btn-light" onclick=" location.href='home.php' "><img src="images/flags/BR.png" /> <label class="labelportada">Português</label></button>
+                <button type="button" class="btn btn-dark" onclick=" location.href='español/home.php' "><img src="images/flags/ES.png" /> <label class="labelportada">Español</label></button>
+                <button type="button" class="btn btn-light" onclick=" location.href='english/home.php' "><img src="images/flags/GB.png" /> <label class="labelportada">English</label></button>
+                <button type="button" class="btn btn-light" onclick=" location.href='deutsch/home.php' "><img src="images/flags/DE.png" /> <label class="labelportada">Deutsch</label></button>
+                <button type="button" class="btn btn-light" onclick=" location.href='francais/home.php' "><img src="images/flags/FR.png" /> <label class="labelportada">Français</label></button>
+                <button type="button" class="btn btn-light" onclick=" location.href='portugues/home.php' "><img src="images/flags/BR.png" /> <label class="labelportada">Português</label></button>
             </div>
         </div>
         <div class="footer">
