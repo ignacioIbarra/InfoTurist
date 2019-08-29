@@ -13,7 +13,7 @@ include("../superior.php");
                         <div class="hero-slides-content">
                             <div class="line"></div>
                             <a class="nav-link" href="restaurantes.php">
-                                <h2>Les restaurants</h2>
+                                <h2>Restaurantes</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
                                 facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse
@@ -31,8 +31,8 @@ include("../superior.php");
                     <div class="col-12">
                         <div class="hero-slides-content">
                             <div class="line"></div>
-                            <a class="nav-link" href="contact.php">
-                                <h2>Les panoramas</h2>
+                            <a class="nav-link" href="panoramas.php">
+                                <h2>Panoramas</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
                                 facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse
@@ -50,8 +50,8 @@ include("../superior.php");
                     <div class="col-12">
                         <div class="hero-slides-content">
                             <div class="line"></div>
-                            <a class="nav-link" href="blog.php">
-                                <h2>Attractions touristiques</h2>
+                            <a class="nav-link" href="atractivosturísticos.php">
+                                <h2>Atractivos Turísticos</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
                                 facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse
@@ -69,8 +69,8 @@ include("../superior.php");
                     <div class="col-12">
                         <div class="hero-slides-content">
                             <div class="line"></div>
-                            <a class="nav-link" href="portfolio.php">
-                                <h2>Le logement</h2>
+                            <a class="nav-link" href="alojamiento.php">
+                                <h2>Alojamiento</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
                                 facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse
@@ -88,8 +88,8 @@ include("../superior.php");
                     <div class="col-12">
                         <div class="hero-slides-content">
                             <div class="line"></div>
-                            <a class="nav-link" href="elements.php">
-                                <h2>Centres de santé et d'urgence</h2>
+                            <a class="nav-link" href="emergency.php">
+                                <h2>Centros de Saúde e Emergência</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
                                 facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse
@@ -107,8 +107,8 @@ include("../superior.php");
                     <div class="col-12">
                         <div class="hero-slides-content">
                             <div class="line"></div>
-                            <a class="nav-link" href="contact.php">
-                                <h2>Gare routière</h2>
+                            <a class="nav-link" href="busstation.php">
+                                <h2>Terminal de ônibus</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
                                 facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse
@@ -126,8 +126,8 @@ include("../superior.php");
                     <div class="col-12">
                         <div class="hero-slides-content">
                             <div class="line"></div>
-                            <a class="nav-link" href="blog.php">
-                                <h2>Les pharmacies</h2>
+                            <a class="nav-link" href="farmacias.php">
+                                <h2>Farmácias</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
                                 facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse
@@ -145,8 +145,8 @@ include("../superior.php");
                     <div class="col-12">
                         <div class="hero-slides-content">
                             <div class="line"></div>
-                            <a class="nav-link" href="portfolio.php">
-                                <h2>Bureau de change</h2>
+                            <a class="nav-link" href="casasdecambio.php">
+                                <h2>Casa de Câmbio</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
                                 facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse
@@ -164,8 +164,8 @@ include("../superior.php");
                     <div class="col-12">
                         <div class="hero-slides-content">
                             <div class="line"></div>
-                            <a class="nav-link" href="elements.php">
-                                <h2>Banques</h2>
+                            <a class="nav-link" href="banco.php">
+                                <h2>Bancos</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
                                 facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse
@@ -183,8 +183,8 @@ include("../superior.php");
                     <div class="col-12">
                         <div class="hero-slides-content">
                             <div class="line"></div>
-                            <a class="nav-link" href="contact.php">
-                                <h2>Municipalités et départements municipaux</h2>
+                            <a class="nav-link" href="municipalidad.php">
+                                <h2>Municípios e Departamentos Municipais</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
                                 facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse
