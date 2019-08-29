@@ -6,7 +6,7 @@ include("../superior.php");
 <section class="hero-area">
     <div class="hero-slides owl-carousel">
         <!-- Single Hero Slide -->
-        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/slide1.jpg);">
+        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/restaurant.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-end">
                     <div class="col-12">
@@ -25,7 +25,7 @@ include("../superior.php");
             </div>
         </div>
         <!-- Single Hero Slide -->
-        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/slide2.jpg);">
+        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/panoramas.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-end">
                     <div class="col-12">
@@ -44,7 +44,7 @@ include("../superior.php");
             </div>
         </div>
         <!-- Single Hero Slide -->
-        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/slide3.jpg);">
+        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/atractivosturísticos.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-end">
                     <div class="col-12">
@@ -63,7 +63,7 @@ include("../superior.php");
             </div>
         </div>
         <!-- Single Hero Slide -->
-        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/slide4.jpg);">
+        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/alojamiento.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-end">
                     <div class="col-12">
@@ -82,7 +82,7 @@ include("../superior.php");
             </div>
         </div>
         <!-- Single Hero Slide -->
-        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/slide1.jpg);">
+        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/emergency.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-end">
                     <div class="col-12">
@@ -101,7 +101,7 @@ include("../superior.php");
             </div>
         </div>
         <!-- Single Hero Slide -->
-        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/slide2.jpg);">
+        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/busstation.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-end">
                     <div class="col-12">
@@ -120,7 +120,7 @@ include("../superior.php");
             </div>
         </div>
         <!-- Single Hero Slide -->
-        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/slide3.jpg);">
+        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/farmacias.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-end">
                     <div class="col-12">
@@ -139,7 +139,7 @@ include("../superior.php");
             </div>
         </div>
         <!-- Single Hero Slide -->
-        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/slide4.jpg);">
+        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/casasdecambio.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-end">
                     <div class="col-12">
@@ -158,7 +158,7 @@ include("../superior.php");
             </div>
         </div>
         <!-- Single Hero Slide -->
-        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/slide1.jpg);">
+        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/banco.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-end">
                     <div class="col-12">
@@ -177,7 +177,7 @@ include("../superior.php");
             </div>
         </div>
         <!-- Single Hero Slide -->
-        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/slide2.jpg);">
+        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/Municipalidad.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-end">
                     <div class="col-12">
