@@ -354,57 +354,65 @@ $res40 = '<!-- Single gallery Item -->
     </div>
     </div>';
 
-$restaurantes = [$res1,$res2,$res3,$res4,$res5,$res6,$res7,$res8,$res9,$res10,$res11,$res12,$res13,
-    $res14,$res15,$res16,$res17,$res18,$res19,$res20,$res21,$res22,$res23,$res24,$res25,$res26,
-    $res27,$res28,$res29,$res30,$res31,$res32,$res33,$res34,$res35,$res36,$res37,$res38,$res39,$res40,];
+$restaurantes = [
+    $res1, $res2, $res3, $res4, $res5, $res6, $res7, $res8, $res9, $res10, $res11, $res12, $res13,
+    $res14, $res15, $res16, $res17, $res18, $res19, $res20, $res21, $res22, $res23, $res24, $res25, $res26,
+    $res27, $res28, $res29, $res30, $res31, $res32, $res33, $res34, $res35, $res36, $res37, $res38, $res39, $res40,
+];
 
-function filtrar($filtro){
+function filtrar($filtro)
+{
     global $restaurantes;
-    if($filtro == 0 ){
+    if ($filtro == 0) {
         // todos
         return $restaurantes;
-        
-    } else if($filtro == 1){
-         // chilena
-         return [$restaurantes[0],$restaurantes[8],$restaurantes[9],$restaurantes[12],$restaurantes[13],
-            $restaurantes[15],$restaurantes[16],$restaurantes[17],$restaurantes[18],$restaurantes[19],$restaurantes[21],
-            $restaurantes[26],$restaurantes[29],$restaurantes[30],$restaurantes[32],$restaurantes[36]];
-        
-    } else if ($filtro == 2){
-       // comida rapida
-       return [$restaurantes[0],$restaurantes[1],$restaurantes[2],$restaurantes[5],$restaurantes[11],$restaurantes[22],
-       $restaurantes[26],$restaurantes[27],$restaurantes[31]
-        ,$restaurantes[23]];
-        
-    } else if ($filtro == 3){
+    } else if ($filtro == 1) {
+        // chilena
+        return [
+            $restaurantes[0], $restaurantes[8], $restaurantes[9], $restaurantes[12], $restaurantes[13],
+            $restaurantes[15], $restaurantes[16], $restaurantes[17], $restaurantes[18], $restaurantes[19], $restaurantes[21],
+            $restaurantes[26], $restaurantes[29], $restaurantes[30], $restaurantes[32], $restaurantes[36]
+        ];
+    } else if ($filtro == 2) {
+        // comida rapida
+        return [
+            $restaurantes[0], $restaurantes[1], $restaurantes[2], $restaurantes[5], $restaurantes[11], $restaurantes[22],
+            $restaurantes[26], $restaurantes[27], $restaurantes[31], $restaurantes[23]
+        ];
+    } else if ($filtro == 3) {
         // Parrilladas
-        return [$restaurantes[12],$restaurantes[13],$restaurantes[15],$restaurantes[18]];
-
-    } else if ($filtro == 4){
+        return [$restaurantes[12], $restaurantes[13], $restaurantes[15], $restaurantes[18]];
+    } else if ($filtro == 4) {
         // comida internacional
-        return [$restaurantes[0],$restaurantes[8],$restaurantes[10],$restaurantes[12],$restaurantes[14],
-            $restaurantes[16],$restaurantes[17],$restaurantes[19],$restaurantes[20],$restaurantes[21],
-            $restaurantes[27],$restaurantes[29],$restaurantes[32]
-            ,$restaurantes[33],$restaurantes[34],$restaurantes[36],$restaurantes[37],$restaurantes[39]];
-
-    } else if ($filtro == 5){
+        return [
+            $restaurantes[0], $restaurantes[8], $restaurantes[10], $restaurantes[12], $restaurantes[14],
+            $restaurantes[16], $restaurantes[17], $restaurantes[19], $restaurantes[20], $restaurantes[21],
+            $restaurantes[27], $restaurantes[29], $restaurantes[32], $restaurantes[33], $restaurantes[34], $restaurantes[36], $restaurantes[37], $restaurantes[39]
+        ];
+    } else if ($filtro == 5) {
         // Bar
-        return [$restaurantes[8],$restaurantes[14],$restaurantes[22],$restaurantes[27],$restaurantes[30],$restaurantes[32],$restaurantes[39]];
-        
-    } else if ($filtro == 6){
+        return [$restaurantes[8], $restaurantes[14], $restaurantes[22], $restaurantes[27], $restaurantes[30], $restaurantes[32], $restaurantes[39]];
+    } else if ($filtro == 6) {
         // cafe
-        return [$restaurantes[0],$restaurantes[9],$restaurantes[10],$restaurantes[11],$restaurantes[19],
-        $restaurantes[28],$restaurantes[31],$restaurantes[33],$restaurantes[34],$restaurantes[36],$restaurantes[37]];
-    } else if($filtro == 7){
+        return [
+            $restaurantes[0], $restaurantes[9], $restaurantes[10], $restaurantes[11], $restaurantes[19],
+            $restaurantes[28], $restaurantes[31], $restaurantes[33], $restaurantes[34], $restaurantes[36], $restaurantes[37]
+        ];
+    } else if ($filtro == 7) {
         // vegana
-        return [$restaurantes[3],$restaurantes[4],$restaurantes[7],
-        $restaurantes[20],$restaurantes[24],$restaurantes[28],$restaurantes[38],$restaurantes[25]];
-    } else if($filtro == 8){
+        return [
+            $restaurantes[3], $restaurantes[4], $restaurantes[7],
+            $restaurantes[20], $restaurantes[24], $restaurantes[28], $restaurantes[38], $restaurantes[25]
+        ];
+    } else if ($filtro == 8) {
         // gastropub
-        return [$restaurantes[1],$restaurantes[14],$restaurantes[27],
-        $restaurantes[28],$restaurantes[30]];
-    } else if ($filtro == 9){
+        return [
+            $restaurantes[1], $restaurantes[14], $restaurantes[27],
+            $restaurantes[28], $restaurantes[30]
+        ];
+    } else if ($filtro == 9) {
         // delicatense
-        return [$restaurantes[10],$restaurantes[26],$restaurantes[28],$restaurantes[31],$restaurantes[33],$restaurantes[34],$restaurantes[35]];
+        return [$restaurantes[10], $restaurantes[26], $restaurantes[28], $restaurantes[31], $restaurantes[33], $restaurantes[34], $restaurantes[35]];
     }
 };
+?>
