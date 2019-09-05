@@ -1,7 +1,6 @@
 <?php
-$hamburguesas='Hamburguesas'; $estadoUnidense= 'Comida Estado Unidense'; $ceviche='Ceviche'; $tragos='Tragos';
-$fajitas ='Fajitas'; $pizza = 'Pizza'; $sandwich = 'Sandwich'; $hotdogs ='Completos (hotdogs)'; $pastas = 'Pastas';
-$postres = 'Postres';
+
+
 function filtrar($filtro){
     global $restaurantes;
     if($filtro == 0 ){
@@ -53,12 +52,26 @@ function filtrar($filtro){
     }
 };
 
+function buscar($buscar){
+    global $restaurantes;
+    if($buscar == 'sano'){
+        return [$restaurantes[3],$restaurantes[4],$restaurantes[6],$restaurantes[7],$restaurantes[19],
+        $restaurantes[20],$restaurantes[24],$restaurantes[28],$restaurantes[34],$restaurantes[38]];
+    } else{
+        return [];
+    }
+}
+
+$hamburguesas='Hamburguesas'; $estadoUnidense= 'Comida Estado Unidense'; $ceviche='Ceviche'; $tragos='Tragos';
+$fajitas ='Fajitas'; $pizza = 'Pizza'; $sandwich = 'Sandwich'; $hotdogs ='Completos (hotdogs)'; $pastas = 'Pastas';
+$postres = 'Postres';
+
 $res1 = '<!-- Single gallery Item -->
     <div class="col-12 col-sm-6 col-lg-3 single_gallery_item landscapes studio wow fadeInUpBig" data-wow-delay="300ms" id="1">
         <a class="gallery-img" href="../images/restaurantes/variedad/torreon.jpg"><img src="../images/restaurantes/variedad/torreon.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>Torreon de Caburgua</h4>
+            <h4><b>Torreon de Caburgua</b></h4>
         </div>
     </div>';
 $res2 = '<!-- Single gallery Item -->
@@ -66,7 +79,7 @@ $res2 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/beanies.jpg"><img src="../images/restaurantes/variedad/beanies.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-        <h4>Beanis & Bikins </h4>
+        <h4><b>Beanis & Bikins</b></h4>
         </div>
     </div>';
 
@@ -75,7 +88,7 @@ $res3 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/sangurucho.jpg"><img src="../images/restaurantes/variedad/sangurucho.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>Sanguruchos Pizza</h4>
+            <h4><b>Sanguruchos Pizza</b></h4>
         </div>
     </div>';
 
@@ -84,7 +97,7 @@ $res4 = '<!-- Single gallery Item -->
         <a href="http://localhost/infoTurist/espa%C3%B1ol/detalle-restaurant.php"><img src="../images/restaurantes/variedad/trattoria.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>La Trattoria da Pietro</h4>
+            <h4><b>La Trattoria da Pietro</b></h4>
         </div>
     </div>';
 $res5 = '<!-- Single gallery Item -->
@@ -92,7 +105,7 @@ $res5 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/mundoElefante.jpg"><img src="../images/restaurantes/variedad/mundoElefante.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>Mundo Elefante</h4>
+            <h4><b>Mundo Elefante</b></h4>
         </div>
     </div>';
 $res6 = '<!-- Single gallery Item -->
@@ -100,7 +113,7 @@ $res6 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/puconStop.jpg"><img src="../images/restaurantes/variedad/puconStop.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>Pucón Stop</h4>
+            <h4><b>Pucón Stop</b></h4>
         </div>
     </div>';
 
@@ -109,7 +122,7 @@ $res7 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/andiamo.jpg"><img src="../images/restaurantes/variedad/andiamo.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>Andiamo</h4>
+            <h4><b>Andiamo</b></h4>
         </div>
     </div>';
 $res8 = '<!-- Single gallery Item -->
@@ -117,7 +130,7 @@ $res8 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/laForja.jpg"><img src="../images/restaurantes/variedad/laForja.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>La Forja</h4>
+            <h4><b>La Forja</b></h4>
         </div>
     </div>';
 
@@ -126,7 +139,7 @@ $res9 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/laFabrika.jpg"><img src="../images/restaurantes/variedad/laFabrika.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>La Fábrika</h4>
+            <h4><b>La Fábrika</b></h4>
         </div>
     </div>';
 $res10 = '<!-- Single gallery Item -->
@@ -134,7 +147,7 @@ $res10 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/picaCampesina.jpg"><img src="../images/restaurantes/variedad/picaCampesina.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>Picá Campesina</h4>
+            <h4><b>Picá Campesina</b></h4>
         </div>
     </div>';
 $res11 = '<!-- Single gallery Item -->
@@ -142,7 +155,7 @@ $res11 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/cafeEpuDomo.jpg"><img src="../images/restaurantes/variedad/cafeEpuDomo.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>Cafe Epu Domo</h4>
+            <h4><b>Cafe Epu Domo</b></h4>
         </div>
     </div>';
 
@@ -151,7 +164,7 @@ $res12 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/caffePolitan.jpg"><img src="../images/restaurantes/variedad/caffePolitan.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>Coffeepolitan Chile</h4>
+            <h4><b>Coffeepolitan Chile</b></h4>
         </div>
     </div>';
 
@@ -160,7 +173,7 @@ $res13 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/bovinos.jpg"><img src="../images/restaurantes/variedad/bovinos.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>Bovinos</h4>
+            <h4><b>Bovinos</b></h4>
         </div>
     </div>';
 
@@ -169,7 +182,7 @@ $res14 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/coyoteGrill.jpg"><img src="../images/restaurantes/variedad/coyoteGrill.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>Coyote Grill</h4>
+            <h4><b>Coyote Grill</b></h4>
         </div>
     </div>';
 
@@ -178,7 +191,7 @@ $res15 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/elCastillo.jpg"><img src="../images/restaurantes/variedad/elCastillo.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>El Castillo</h4>
+            <h4><b>El Castillo</b></h4>
         </div>
     </div>';
 
@@ -187,7 +200,7 @@ $res16 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/elFogon.jpg"><img src="../images/restaurantes/variedad/elFogon.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>El Fogón</h4>
+            <h4><b>El Fogón</b></h4>
         </div>
     </div>';
 
@@ -196,7 +209,7 @@ $res17 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/revanchaChino1.jpg"><img src="../images/restaurantes/variedad/revanchaChino1.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>La Revancha Del Chino Lee Chong</h4>
+            <h4><b>La Revancha Del Chino Lee Chong</b></h4>
         </div>
     </div>';
 
@@ -205,7 +218,7 @@ $res18 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/loretano.jpg"><img src="../images/restaurantes/variedad/loretano.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>Loretano</h4>
+            <h4><b>Loretano</b></h4>
         </div>
     </div>';
 
@@ -214,7 +227,7 @@ $res19 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/barrosoParrilla.jpg"><img src="../images/restaurantes/variedad/barrosoParrilla.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>El Barroso Parrilla</h4>
+            <h4><b>El Barroso Parrilla</b></h4>
         </div>
     </div>';
 
@@ -223,7 +236,7 @@ $res20 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/wedWed.jpg"><img src="../images/restaurantes/variedad/wedWed.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>Wed-Wed</h4>
+            <h4><b>Wed-Wed</b></h4>
         </div>
     </div>';
 
@@ -232,7 +245,7 @@ $res21 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/fiorentini.jpg"><img src="../images/restaurantes/variedad/fiorentini.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>Fiorentini</h4>
+            <h4><b>Fiorentini</b></h4>
         </div>
     </div>';
 
@@ -241,7 +254,7 @@ $res22 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/buenaVida.jpg"><img src="../images/restaurantes/variedad/buenaVida.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>Buena Vida</h4>
+            <h4><b>Buena Vida</b></h4>
         </div>
     </div>';
 
@@ -251,7 +264,7 @@ $res23 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/RAPBurger/foto1.jpg"><img src="../images/restaurantes/RAPBurger/foto1.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>RAP burguer</h4>
+            <h4><b>RAP burguer</b></h4>
         </div>
     </div>';
 
@@ -260,7 +273,7 @@ $res24 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/artepizza.jpg"><img src="../images/restaurantes/variedad/artepizza.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>ArtePizza Pucón</h4>
+            <h4><b>ArtePizza Pucón</b></h4>
         </div>
     </div>';
 
@@ -270,7 +283,7 @@ $res25 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/purasPavadas/foto1.jpg"><img src="../images/restaurantes/purasPavadas/foto1.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>Puras Pavadas</h4>
+            <h4><b>Puras Pavadas</b></h4>
         </div>
     </div>';
 
@@ -279,7 +292,7 @@ $res26 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/ecole!/foto1.jpg"><img src="../images/restaurantes/ecole!/foto1.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>ecole!</h4>
+            <h4><b>ecole!</b></h4>
         </div>
     </div>';
 $res27 = '<!-- Single gallery Item -->
@@ -287,7 +300,7 @@ $res27 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/justDelicious/foto1.jpg"><img src="../images/restaurantes/justDelicious/foto1.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>Just Delicious</h4>
+            <h4><b>Just Delicious</b></h4>
         </div>
     </div>';
 
@@ -296,7 +309,7 @@ $res28 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/beerHouse/foto1.jpg"><img src="../images/restaurantes/beerHouse/foto1.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>BeerHouse</h4>
+            <h4><b>BeerHouse</b></h4>
         </div>
     </div>';
 
@@ -305,7 +318,7 @@ $res29 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/cassis.jpg"><img src="../images/restaurantes/variedad/cassis.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>Cassis</h4>
+            <h4><b>Cassis</b></h4>
         </div>
     </div>';
 
@@ -314,7 +327,7 @@ $res30 = '<!-- Single gallery Item -->
     <a class="gallery-img" href="../images/restaurantes/variedad/kutral.jpg"><img src="../images/restaurantes/variedad/kutral.jpg" alt=""></a>
     <!-- Gallery Content -->
     <div class="gallery-content">
-        <h4>Kutral</h4>
+        <h4><b>Kutral</b></h4>
     </div>
     </div>';
 
@@ -323,7 +336,7 @@ $res31 = '<!-- Single gallery Item -->
     <a class="gallery-img" href="../images/restaurantes/variedad/sangucheriaPata.jpg"><img src="../images/restaurantes/variedad/sangucheriaPata.jpg" alt=""></a>
     <!-- Gallery Content -->
     <div class="gallery-content">
-        <h4>Sangucheria Patacon</h4>
+        <h4><b>Sangucheria Patacon</b></h4>
     </div>
     </div>';
 
@@ -332,7 +345,7 @@ $res32 = '<!-- Single gallery Item -->
     <a class="gallery-img" href="../images/restaurantes/variedad/almacen.jpg"><img src="../images/restaurantes/variedad/almacen.jpg" alt=""></a>
     <!-- Gallery Content -->
     <div class="gallery-content">
-        <h4>Almacén de Quetro</h4>
+        <h4><b>Almacén de Quetro</b></h4>
     </div>
     </div>';
 
@@ -341,7 +354,7 @@ $res33 = '<!-- Single gallery Item -->
     <a class="gallery-img" href="../images/restaurantes/variedad/ottoBar.jpg"><img src="../images/restaurantes/variedad/ottoBar.jpg" alt=""></a>
     <!-- Gallery Content -->
     <div class="gallery-content">
-        <h4>Otto Bar</h4>
+        <h4><b>Otto Bar</b></h4>
     </div>
     </div>';
 
@@ -350,7 +363,7 @@ $res34 = '<!-- Single gallery Item -->
     <a class="gallery-img" href="../images/restaurantes/variedad/klee.jpg"><img src="../images/restaurantes/variedad/klee.jpg" alt=""></a>
     <!-- Gallery Content -->
     <div class="gallery-content">
-        <h4>Klee Kaffee</h4>
+        <h4><b>Klee Kaffee</b></h4>
     </div>
     </div>';
 
@@ -359,7 +372,7 @@ $res35 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/kuchenladen.jpg"><img src="../images/restaurantes/variedad/kuchenladen.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>Kuchenladen</h4>
+            <h4><b>Kuchenladen</b></h4>
         </div>
         </div>';
 
@@ -368,7 +381,7 @@ $res36 = '<!-- Single gallery Item -->
         <a class="gallery-img" href="../images/restaurantes/variedad/torreDelArtista.jpg"><img src="../images/restaurantes/variedad/torreDelArtista.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
-            <h4>Torre del artista</h4>
+            <h4><b>Torre del artista</b></h4>
         </div>
     </div>';
 
@@ -377,7 +390,7 @@ $res37 = '<!-- Single gallery Item -->
     <a class="gallery-img" href="../images/restaurantes/variedad/297cafe.jpg"><img src="../images/restaurantes/variedad/297cafe.jpg" alt=""></a>
     <!-- Gallery Content -->
     <div class="gallery-content">
-        <h4>297 Café Bistro</h4>
+        <h4><b>297 Café Bistro</b></h4>
     </div>
     </div>';
 
@@ -386,7 +399,7 @@ $res38 = '<!-- Single gallery Item -->
     <a class="gallery-img" href="../images/restaurantes/variedad/cafeBerlin.jpg"><img src="../images/restaurantes/variedad/cafeBerlin.jpg" alt=""></a>
     <!-- Gallery Content -->
     <div class="gallery-content">
-        <h4>Café Berlin</h4>
+        <h4><b>Café Berlin</b></h4>
     </div>
     </div>';
 
@@ -395,7 +408,7 @@ $res39 = '<!-- Single gallery Item -->
     <a class="gallery-img" href="../images/restaurantes/variedad/senzo.jpg"><img src="../images/restaurantes/variedad/senzo.jpg" alt=""></a>
     <!-- Gallery Content -->
     <div class="gallery-content">
-        <h4>Senzo</h4>
+        <h4><b>Senzo</b></h4>
     </div>
     </div>';
 
@@ -404,7 +417,7 @@ $res40 = '<!-- Single gallery Item -->
     <a class="gallery-img" href="../images/restaurantes/variedad/latitude39.jpg"><img src="../images/restaurantes/variedad/latitude39.jpg" alt=""></a>
     <!-- Gallery Content -->
     <div class="gallery-content">
-        <h4>Latitude 39</h4>
+        <h4><b>Latitude 39</b></h4>
     </div>
     </div>';
 
