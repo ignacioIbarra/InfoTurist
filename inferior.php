@@ -1,4 +1,4 @@
-
+</div>
 <!-- jQuery (Necessary for All JavaScript Plugins) -->
 <script src="../js/jquery/jquery-2.2.4.min.js"></script>
 <!-- Popper js -->

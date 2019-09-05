@@ -6,14 +6,14 @@ include("../superior.php");
 <section class="hero-area">
     <div class="hero-slides owl-carousel">
         <!-- Single Hero Slide -->
-        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/slide1.jpg);">
+        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/restaurant.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-end">
                     <div class="col-12">
                         <div class="hero-slides-content">
                             <div class="line"></div>
-                            <a class="nav-link" href="elements.php">
-                                <h2>Les restaurants</h2>
+                            <a class="nav-link" href="restaurantes.php">
+                                <h2>Restaurantes</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
                                 facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse
@@ -25,14 +25,14 @@ include("../superior.php");
             </div>
         </div>
         <!-- Single Hero Slide -->
-        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/slide2.jpg);">
+        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/panoramas.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-end">
                     <div class="col-12">
                         <div class="hero-slides-content">
                             <div class="line"></div>
-                            <a class="nav-link" href="contact.php">
-                                <h2>Les panoramas</h2>
+                            <a class="nav-link" href="panoramas.php">
+                                <h2>Panoramas</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
                                 facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse
@@ -44,14 +44,14 @@ include("../superior.php");
             </div>
         </div>
         <!-- Single Hero Slide -->
-        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/slide3.jpg);">
+        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/atractivosturísticos.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-end">
                     <div class="col-12">
                         <div class="hero-slides-content">
                             <div class="line"></div>
-                            <a class="nav-link" href="blog.php">
-                                <h2>Attractions touristiques</h2>
+                            <a class="nav-link" href="atractivosturísticos.php">
+                                <h2>Atractivos Turísticos</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
                                 facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse
@@ -63,14 +63,14 @@ include("../superior.php");
             </div>
         </div>
         <!-- Single Hero Slide -->
-        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/slide4.jpg);">
+        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/alojamiento.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-end">
                     <div class="col-12">
                         <div class="hero-slides-content">
                             <div class="line"></div>
-                            <a class="nav-link" href="portfolio.php">
-                                <h2>Le logement</h2>
+                            <a class="nav-link" href="alojamiento.php">
+                                <h2>Alojamiento</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
                                 facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse
@@ -82,14 +82,14 @@ include("../superior.php");
             </div>
         </div>
         <!-- Single Hero Slide -->
-        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/slide1.jpg);">
+        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/emergency.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-end">
                     <div class="col-12">
                         <div class="hero-slides-content">
                             <div class="line"></div>
-                            <a class="nav-link" href="elements.php">
-                                <h2>Centres de santé et d'urgence</h2>
+                            <a class="nav-link" href="emergency.php">
+                                <h2>Centros de Saúde e Emergência</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
                                 facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse
@@ -101,14 +101,14 @@ include("../superior.php");
             </div>
         </div>
         <!-- Single Hero Slide -->
-        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/slide2.jpg);">
+        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/busstation.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-end">
                     <div class="col-12">
                         <div class="hero-slides-content">
                             <div class="line"></div>
-                            <a class="nav-link" href="contact.php">
-                                <h2>Gare routière</h2>
+                            <a class="nav-link" href="busstation.php">
+                                <h2>Terminal de ônibus</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
                                 facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse
@@ -120,14 +120,14 @@ include("../superior.php");
             </div>
         </div>
         <!-- Single Hero Slide -->
-        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/slide3.jpg);">
+        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/farmacias.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-end">
                     <div class="col-12">
                         <div class="hero-slides-content">
                             <div class="line"></div>
-                            <a class="nav-link" href="blog.php">
-                                <h2>Les pharmacies</h2>
+                            <a class="nav-link" href="farmacias.php">
+                                <h2>Farmácias</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
                                 facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse
@@ -139,14 +139,14 @@ include("../superior.php");
             </div>
         </div>
         <!-- Single Hero Slide -->
-        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/slide4.jpg);">
+        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/casasdecambio.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-end">
                     <div class="col-12">
                         <div class="hero-slides-content">
                             <div class="line"></div>
-                            <a class="nav-link" href="portfolio.php">
-                                <h2>Bureau de change</h2>
+                            <a class="nav-link" href="casasdecambio.php">
+                                <h2>Casa de Câmbio</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
                                 facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse
@@ -158,14 +158,14 @@ include("../superior.php");
             </div>
         </div>
         <!-- Single Hero Slide -->
-        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/slide1.jpg);">
+        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/banco.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-end">
                     <div class="col-12">
                         <div class="hero-slides-content">
                             <div class="line"></div>
-                            <a class="nav-link" href="elements.php">
-                                <h2>Banques</h2>
+                            <a class="nav-link" href="banco.php">
+                                <h2>Bancos</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
                                 facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse
@@ -177,14 +177,14 @@ include("../superior.php");
             </div>
         </div>
         <!-- Single Hero Slide -->
-        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/slide2.jpg);">
+        <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(../img/bg-img/Municipalidad.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-end">
                     <div class="col-12">
                         <div class="hero-slides-content">
                             <div class="line"></div>
-                            <a class="nav-link" href="contact.php">
-                                <h2>Municipalités et départements municipaux</h2>
+                            <a class="nav-link" href="municipalidad.php">
+                                <h2>Municípios e Departamentos Municipais</h2>
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor
                                 facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse

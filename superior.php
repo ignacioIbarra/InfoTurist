@@ -117,3 +117,4 @@
         </div>
     </header>
     <!-- ***** Header Area End ***** -->
+    <div class="main" style="background-image: url('../img/background.jpg')">
