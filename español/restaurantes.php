@@ -72,15 +72,8 @@ if (isset($_GET['filtro'])) {
 
 
         </div>
-
-        <!-- <div class="row">
-                <div class="col-12 text-center">
-                    <a href="#" class="btn sonar-btn">Load More</a>
-                </div>
-            </div>  -->
     </div>
 </section>
-<!-- ****** Gallery Area End ****** -->
 <?php
 include("../inferior.php");
 ?>
