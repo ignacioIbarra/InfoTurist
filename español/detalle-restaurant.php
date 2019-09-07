@@ -58,36 +58,37 @@ $h = $tiposComidaArr;
         display: none;
         position: fixed;
         z-index: 1;
-        padding-top: 7%;
+        padding-top: 4%;
         left: 0;
         top: 0;
         width: 100%;
         height: 100%;
         overflow: auto;
-        background-color: cornsilk;
+        background-color: black;
     }
 
 
     /* Modal Content */
     .modal-content {
         position: relative;
-        background-color: cornsilk;
+        background-color: black;
         margin: auto;
         padding: 0;
-        width: 65%;
+        width: 68%;
         max-width: 900px;
-        height: 80%;
+        height: 62%;
     }
 
     /* The Close Button */
     .close {
-        color: brown;
+        color: white;
         position: absolute;
-        top: 10%;
-        right: 13%;
+        top: 2%;
+        right: 21%;
         font-size: 46px;
         font-weight: bold;
         opacity: 1;
+        z-index: 1;
     }
 
     .close:hover,
@@ -113,7 +114,6 @@ $h = $tiposComidaArr;
         top: 50%;
         width: auto;
         padding: 16px;
-        margin-top: -50px;
         color: white;
         font-weight: bold;
         font-size: 20px;
@@ -122,6 +122,7 @@ $h = $tiposComidaArr;
         user-select: none;
         -webkit-user-select: none;
         background-color: rgba(0, 0, 0, 0.8);
+        font-size:55px;
     }
 
     /* Position the "next button" to the right */
@@ -540,58 +541,58 @@ $h = $tiposComidaArr;
 
             <div class="mySlides">
                 <div class="numbertext">1 / 10</div>
-                <img src="../images/restaurantes/variedad/trattoria.jpg" style="width:678px;height:500px;padding:1%;">
+                <img src="../images/restaurantes/variedad/trattoria.jpg" style="width:63%;height:100%;padding:1%;">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">2 / 10</div>
-                <img src="../images/restaurantes/tratoria/foto1.jpg" style="width:678px;height:500px;padding:1%;">
+                <img src="../images/restaurantes/tratoria/foto1.jpg" style="width:63%;height:100%;padding:1%;">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">3 / 10</div>
-                <img src="../images/restaurantes/tratoria/foto2.jpg" style="width:678px;height:500px;padding:1%;">
+                <img src="../images/restaurantes/tratoria/foto2.jpg" style="width:63%;height:100%;padding:1%;">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">4 / 10</div>
-                <img src="../images/restaurantes/tratoria/foto3.jpg" style="width:678px;height:500px;padding:1%;">
+                <img src="../images/restaurantes/tratoria/foto3.jpg" style="width:63%;height:100%;padding:1%;">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">5 / 10</div>
-                <img src="../images/restaurantes/tratoria/foto10.jpg" style="width:678px;height:500px;padding:1%;">
+                <img src="../images/restaurantes/tratoria/foto10.jpg" style="width:63%;height:100%;padding:1%;">
             </div>
             <div class="mySlides">
                 <div class="numbertext">6 / 10</div>
-                <img src="../images/restaurantes/tratoria/foto4.jpg" style="width:678px;height:500px;padding:1%;">
+                <img src="../images/restaurantes/tratoria/foto4.jpg" style="width:63%;height:100%;padding:1%;">
             </div>
             <div class="mySlides">
                 <div class="numbertext">7 / 10</div>
-                <img src="../images/restaurantes/tratoria/foto6.jpg" style="width:678px;height:500px;padding:1%;">
+                <img src="../images/restaurantes/tratoria/foto6.jpg" style="width:63%;height:100%;padding:1%;">
             </div>
             <div class="mySlides">
                 <div class="numbertext">8 / 10</div>
-                <img src="../images/restaurantes/tratoria/foto7.jpg" style="width:678px;height:500px;padding:1%;">
+                <img src="../images/restaurantes/tratoria/foto7.jpg" style="width:63%;height:100%;padding:1%;">
             </div>
             <div class="mySlides">
                 <div class="numbertext">9 / 10</div>
-                <img src="../images/restaurantes/tratoria/foto8.jpg" style="width:678px;height:500px;padding:1%;">
+                <img src="../images/restaurantes/tratoria/foto8.jpg" style="width:63%;height:100%;padding:1%;">
             </div>
             <div class="mySlides">
                 <div class="numbertext">10 / 10</div>
-                <img src="../images/restaurantes/tratoria/foto9.jpg" style="width:678px;height:500px;padding:1%;">
+                <img src="../images/restaurantes/tratoria/foto9.jpg" style="width:63%;height:100%;padding:1%;">
             </div>
 
             <a class="prev" onclick="plusSlides(-1)" style="left: 3%;color:white;">&#10094;</a>
             <a class="next" onclick="plusSlides(1)" style="right: 3%;color:white;">&#10095;</a>
-
+<!-- 
             <div class="caption-container" style="color:white;">
                 <p id="caption"></p>
-            </div>
+            </div> -->
 
 
-            <div class="col-sm-12">
+            <div style="margin-top: 35px;">
                 <div class="column">
                     <img class="demo cursor" src="../images/restaurantes/variedad/trattoria.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
                 </div>
@@ -629,11 +630,13 @@ $h = $tiposComidaArr;
 
     <script>
         function openModal() {
+            document.getElementById("header").style.visibility = "hidden";
             document.getElementById("myModal").style.display = "block";
         }
 
         function closeModal() {
             document.getElementById("myModal").style.display = "none";
+            document.getElementById("header").style.visibility = "visible";
         }
 
         var slideIndex = 1;
