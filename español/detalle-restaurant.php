@@ -475,7 +475,7 @@ $h = $tiposComidaArr;
                     <?php echo $pastas . ', ' . $pizza . ', ' . $postres ?>.
 
                     <h4>Dirección</h4>
-                    <a class="gallery-img" href="../images/restaurantes/tratoria/QR.jpg">
+                    <a href="https://www.google.com/maps/place/La+Trattoria+da+Pietro/@-39.2752858,-71.9700697,15z/data=!4m5!3m4!1s0x0:0xab42566ed0759ed6!8m2!3d-39.2752858!4d-71.9700697">
                         Bernardo O'Higgins 717, local 4 Patagonia Boulevard, Pucón Chile
                     </a>
                     <br>
@@ -503,8 +503,8 @@ $h = $tiposComidaArr;
                         <div class="col-sm-4">
                             <img src="../images/restaurantes/tratoria/foto4.jpg" class="img-responsive" style="width:100%;cursor:pointer;" alt="Image" onclick="openModal();currentSlide(6)">
                         </div>
-                        <div class="col-sm-4" style="cursor:pointer;"onclick="openModal();currentSlide(7)">
-                            <img src="../images/restaurantes/tratoria/foto6.jpg" class="img-responsive" style="width:100%;opacity: 0.3;" alt="Image" >
+                        <div class="col-sm-4" style="cursor:pointer;">
+                            <img src="../images/restaurantes/tratoria/foto6.jpg" class="img-responsive" style="width:100%;opacity: 0.3;" alt="Image" onclick="openModal();currentSlide(7)">
                             <div class="middle">
                                 <div class="text" style="font-size:60px;">+</div>
                             </div>
@@ -719,14 +719,7 @@ $h = $tiposComidaArr;
     </div>
 </div>
 <div class="mfp-preloader">Loading...</div> -->
-<style>
-.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
-    right:15px;
-}
-img.mfp-img{
-    max-width:92%;
-}
-</style>
+
     <?php
     include("../inferior.php");
     ?>

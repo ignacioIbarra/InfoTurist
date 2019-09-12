@@ -98,7 +98,7 @@ $res3 = '<!-- Single gallery Item -->
 
 $res4 = '<!-- Single gallery Item -->
     <div class="col-12 col-sm-6 col-lg-3 single_gallery_item portraits studio wow fadeInUpBig" data-wow-delay="900ms">
-        <a href="/infoTurist/espa%C3%B1ol/detalle-restaurant.php"><img src="../images/restaurantes/variedad/trattoria.jpg" alt=""></a>
+        <a href="http://localhost/infoTurist/espa%C3%B1ol/detalle-restaurant.php"><img src="../images/restaurantes/variedad/trattoria.jpg" alt=""></a>
         <!-- Gallery Content -->
         <div class="gallery-content">
             <h4><b>La Trattoria da Pietro</b></h4>
