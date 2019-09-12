@@ -8,7 +8,7 @@
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
 
-    <title>Pucon Go</title>
+    <title>Sssoon Page </title>
 
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/coming-sssoon.css" rel="stylesheet" />
@@ -68,7 +68,7 @@
 
         <div class="container">
             <h1 class="logo cursive">
-                Bienvebido a una nueva experiencia
+                Sssoon
             </h1>
             <!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
             <div class="content">
