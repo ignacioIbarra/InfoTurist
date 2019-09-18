@@ -178,6 +178,9 @@ $h = $tiposComidaArr;
         color: white;
         font-size: 20px;
     }
+    .mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close{
+        cursor:pointer;
+    }
 </style>
 <!--  BeerHouse  -->
 <!-- <div class ="card">

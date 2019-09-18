@@ -26,6 +26,11 @@ if (isset($_GET['filtro'])) {
     h4{
         color:aliceblue;
     }
+    .gallery-img{
+        width:252px;
+        height:283px;
+    }
+
 </style>
 
 
