@@ -97,7 +97,7 @@
     <!-- ***** Main Menu Area End ***** -->
 
     <!-- ***** Header Area Start ***** -->
-    <header class="header-area">
+    <header class="header-area" id="header">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
